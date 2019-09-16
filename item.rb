@@ -9,9 +9,9 @@ class Item
 
     def to_s
         if @checked
-            puts "[X] - #{@name}"
+            "[X] - #{@name}"
         else
-            puts "[ ] - #{@name}"
+            "[ ] - #{@name}"
         end
     end
 

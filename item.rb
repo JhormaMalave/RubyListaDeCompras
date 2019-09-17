@@ -1,6 +1,7 @@
 class Item
     #Atributos
-    attr_writer :name, :checked
+    attr_accessor :name
+    attr_writer :checked
 
     def initialize(name = "")
         @name = name
